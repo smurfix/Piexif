@@ -1,0 +1,33 @@
+Source: piexif
+Maintainer: Matthias Urlichs <matthias@urlichs.de>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/hMatoba/Piexif
+
+Package: python3-piexif
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: To simplify exif manipulations with python. Writing, reading
+ Piexif
+ ======
+ .
+ |Build Status| |Windows Build| |Coverage Status| |docs|
+ .
+ .
+ To simplify exif manipulations with python. Writing, reading, and more... Piexif is pure python. To everywhere with Python.
+ .
+ .
+ Document: http://piexif.readthedocs.org/en/latest/
+ .
+ Online demo: http://piexif-demo.appspot.com/demo
+ .
+ Install
+ -------
+ .
+ 'easy_install'::
+ .
+     $ easy_install piexif
+ .
+
